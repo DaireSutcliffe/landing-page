@@ -1,0 +1,42 @@
+html,
+body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    background-color: #1F2937;
+    padding: 24px;
+}
+
+.hero{
+    background-color: #1F2937;
+    flex: 1;
+}
+
+.information{
+    background-color: white;
+    flex: 1;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+.base{
+    background-color: white;
+    flex: 1;
+}
+
+.footer{
+    background-color: #1F2937;
+    padding: 24px;
+}
