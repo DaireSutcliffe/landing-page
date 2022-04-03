@@ -11,9 +11,29 @@ body{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.title{
+    font-weight: 900;
+}
+
 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
-    padding: 24px;
+    color: white;
+    padding: 16px;
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .hero{
