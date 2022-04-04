@@ -51,25 +51,30 @@ a{
 
 .hero{
     background-color: #1F2937;
+    color: #F9FAF8;
     flex: 1;
 }
 
 .info{
     background-color: white;
+    color: #1f2937;
     flex: 1;
 }
 
 .quote{
     background-color: #E5E7EB;
+    color: #1F2937;
     flex: 1;
 }
 
 .base{
     background-color: white;
+    color: #1F2937;
     flex: 1;
 }
 
 .footer{
     background-color: #1F2937;
+    color: #F9FAF8;
     padding: 24px;
 }
