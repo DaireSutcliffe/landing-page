@@ -22,15 +22,15 @@ body{
     width: 60%;
 }
 
+.title{
+    font-weight: 900;
+}
+
 .info-placeholder{
     width: 150px;
     height: 150px;
     background-color: black;
     flex-shrink: 0;
-}
-
-.title{
-    font-weight: 900;
 }
 
 .header{
@@ -42,6 +42,10 @@ body{
 .header .content-box{
     justify-content: space-between;
     align-items: center;
+}
+
+.logo{
+    font-size: 28px;
 }
 
 ul{
