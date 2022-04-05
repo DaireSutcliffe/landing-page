@@ -129,8 +129,17 @@ a{
     align-items: center;
 }
 
-.quote .source{
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.source{
     align-self: flex-end;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .base{
