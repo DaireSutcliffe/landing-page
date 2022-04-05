@@ -104,8 +104,18 @@ a{
 }
 
 .signup-button{
-    font-size: 24px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 20px;
     font-weight: 800;
+    padding: 10px 34px;
+    border: 0;
+    border-radius: 6px;
+}
+
+.signup-button:hover{
+    background-color: #F9FAF8;
+    color: #3882F6;
 }
 
 
