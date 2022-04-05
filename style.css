@@ -123,6 +123,16 @@ a{
     flex: 1;
 }
 
+.quote .content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote .source{
+    align-self: flex-end;
+}
+
 .base{
     background-color: white;
     color: #1F2937;
