@@ -82,13 +82,34 @@ a{
 }
 
 .info{
+    flex: 1;
     background-color: white;
     color: #1f2937;
-    flex: 1;
+}
+
+.info .content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .title{
+    margin-bottom: 70px;
 }
 
 .info-container{
     display: flex;
+    gap: 30px;
+}
+
+.info .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .subtext{
+    text-align: center;
 }
 
 .quote{
