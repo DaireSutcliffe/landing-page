@@ -29,8 +29,9 @@ body{
 .info-placeholder{
     width: 150px;
     height: 150px;
-    background-color: black;
+    background-color: #1F2937;
     flex-shrink: 0;
+    border-radius: 15px;
 }
 
 .header{
@@ -115,6 +116,7 @@ a{
     align-items: center;
     font-size: 18px;
     color: #1F2937;
+    gap: 15px;
 }
 
 .info .subtext{
