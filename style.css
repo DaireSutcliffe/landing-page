@@ -57,9 +57,19 @@ a{
 }
 
 .hero{
+    flex: 1;
     background-color: #1F2937;
     color: #F9FAF8;
-    flex: 1;
+}
+
+.hero .content-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .introduction{
+    width: 500px;
 }
 
 .hero .title{
