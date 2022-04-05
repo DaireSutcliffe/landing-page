@@ -148,6 +148,24 @@ a{
     flex: 1;
 }
 
+.base .content-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 50px 150px;
+    border-radius: 12px;
+    color: #F9FAF8;
+}
+
+
 .signup-button{
     background-color: #3882F6;
     color: #F9FAF8;
@@ -163,6 +181,15 @@ a{
     color: #3882F6;
 }
 
+.base .signup-button{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.base .signup-button:hover{
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
 
 .footer{
     background-color: #1F2937;
